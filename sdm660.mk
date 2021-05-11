@@ -53,6 +53,7 @@ TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 
 # R HALs
 OVERRIDE_QCOM_HARDWARE_VARIANT := msm8998-r
+TARGET_OVERRIDE_WLAN := wlan-msm8998-r
 
 # A/B
 ifeq ($(ENABLE_AB), true)
