@@ -9,6 +9,3 @@ rm -rf hardware/qcom-caf/msm8998/audio
 git clone -b 11 https://github.com/iszon/hardware_qcom-caf_display_msm8998.git hardware/qcom-caf/msm8998/display
 git clone -b 11 https://github.com/iszon/hardware_qcom-caf_media_msm8998.git hardware/qcom-caf/msm8998/media
 git clone -b 11 https://github.com/iszon/hardware_qcom-caf_audio_msm8998.git hardware/qcom-caf/msm8998/audio
-
-# proton
-git clone https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/clang-proton --depth=1
